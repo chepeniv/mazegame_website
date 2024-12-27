@@ -1,0 +1,12 @@
+__pycache__
+
+*.doc
+*.error
+*.ignore
+*.log
+*.out
+*.ref
+*.ref.*
+*.skip
+*.test
+*.test.*
