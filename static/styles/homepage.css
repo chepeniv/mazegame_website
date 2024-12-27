@@ -11,7 +11,7 @@ body {
 	display: grid;
 	grid-template: auto auto auto / auto auto auto;
 	margin: auto;
-	width: 80vh;
+	max-width: 75vh;
 }
 
 .session {
@@ -19,6 +19,7 @@ body {
 	height: 64px;
 	grid-row: 1;
 	grid-column: 1 / span 3;
+
 }
 
 .map {
@@ -26,7 +27,4 @@ body {
 	grid-column: 1 / span 3;
 	aspect-ratio: 1/1;
 	min-width: 85%;
-}
-
-.map-bg {
 }
