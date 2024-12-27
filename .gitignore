@@ -10,4 +10,4 @@ __pycache__
 *.skip
 *.test
 *.test.*
-maze_data.json
+*maze_data.json
