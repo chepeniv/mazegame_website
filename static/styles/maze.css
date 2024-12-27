@@ -12,13 +12,9 @@
 .block {
 	aspect-ratio: 1/1;
 	box-sizing: border-box;
-	/* border: 2px solid white; */
 }
 
 /******** walls ********/
-
-.no-wall {
-}
 
 .bottom-wall {
 	border-bottom: 2px solid black;

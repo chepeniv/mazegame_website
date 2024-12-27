@@ -1,22 +1,6 @@
 #!/usr/bin/node
 /* global $ */
 
-// const initMaze = [
-//   [7, 6, 6, 6, 12, 6],
-//   [3, 10, 3, 3, 4, 3],
-//   [9, 5, 9, 3, 6, 6],
-//   [6, 12, 14, 11, 7, 2],
-//   [3, 9, 9, 9, 10, 6],
-//   [5, 3, 9, 5, 4, 3],
-
-//   [3, 3, 1, 9, 7, 12],
-//   [3, 3, 3, 12, 12, 6],
-//   [3, 9, 3, 3, 4, 3],
-//   [10, 6, 9, 12, 3, 6],
-//   [3, 2, 9, 5, 6, 14],
-//   [12, 9, 12, 13, 12, 10]
-// ];
-
 // if encoded with prime numbers use a dictionary
 // ref: 00 02 03 05 07 11 13 17 19 23 29 31 37 41 43
 
@@ -117,6 +101,7 @@ function buildMazeGrid (size) {
   setEntry(size);
   setExits(size);
 }
+
 function drawMaze (layout) {
   const height = layout.length;
   const width = Math.floor(height / 2);
